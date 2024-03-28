@@ -312,6 +312,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  .page {
+    height: auto;
+    min-height: 78vh;
+  }
+
   .star-bg {
     bottom: -60px;
     width: 120px;
