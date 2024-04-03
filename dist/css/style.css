@@ -196,10 +196,18 @@ body {
 }
 
 .page h1 {
-  line-height: 1.55;
+  line-height: 1.2;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 10vh;
+}
+
+.page h1 div {
+  margin: 20px 0;
+}
+
+.page h1 div._seo {
+  margin-top: 70px;
 }
 
 .page h2 {
