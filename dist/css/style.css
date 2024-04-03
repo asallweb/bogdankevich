@@ -333,11 +333,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .page {
-    height: auto;
-    min-height: 78vh;
-  }
-
   .star-bg {
     bottom: -60px;
     width: 120px;
@@ -360,7 +355,7 @@ body {
   }
 
   .page {
-    margin-bottom: 3.125rem;
+    margin-bottom: 2.5rem;
   }
 
   .page h1 {
@@ -409,15 +404,15 @@ body {
     }
 }
 
-@supports (margin-bottom: clamp( 3.125rem , -0.0801282051rem  +  16.0256410256vw , 18.75rem )) {
+@supports (margin-bottom: clamp( 2.5rem , -0.8333333333rem  +  16.6666666667vw , 18.75rem )) {
     .page {
-      margin-bottom: clamp( 3.125rem , -0.0801282051rem  +  16.0256410256vw , 18.75rem );
+      margin-bottom: clamp( 2.5rem , -0.8333333333rem  +  16.6666666667vw , 18.75rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 3.125rem , -0.0801282051rem  +  16.0256410256vw , 18.75rem )) {
+@supports not (margin-bottom: clamp( 2.5rem , -0.8333333333rem  +  16.6666666667vw , 18.75rem )) {
     .page {
-      margin-bottom: calc(3.125rem + 15.625 * (100vw - 20rem) / 97.5);
+      margin-bottom: calc(2.5rem + 16.25 * (100vw - 20rem) / 97.5);
     }
 }
 
