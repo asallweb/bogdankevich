@@ -192,7 +192,7 @@ body {
 
 .page {
   color: #f4f4f4;
-  height: 100vh;
+  margin-bottom: 150px;
 }
 
 .page h1 {
