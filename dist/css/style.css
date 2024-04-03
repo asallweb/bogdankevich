@@ -200,6 +200,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 10vh;
+  text-align: center;
 }
 
 .page h1 div {
@@ -215,6 +216,7 @@ body {
   line-height: 1.55;
   font-weight: 700;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .page .btn {
@@ -236,6 +238,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 auto;
 }
 
 .page .btn:hover {
@@ -347,15 +350,6 @@ body {
   .page {
     height: auto;
     min-height: 78vh;
-  }
-
-  .page h1,
-  .page h2 {
-    text-align: center;
-  }
-
-  .page .btn {
-    margin: 0 auto;
   }
 
   .star-bg {
