@@ -192,7 +192,6 @@ body {
 
 .page {
   color: #f4f4f4;
-  margin-bottom: 300px;
 }
 
 .page h1 {
@@ -296,6 +295,10 @@ body {
     font-size: 1.25rem;
   }
 
+  .page {
+    margin-bottom: 18.75rem;
+  }
+
   .page h1 {
     font-size: 7.625rem;
   }
@@ -356,6 +359,10 @@ body {
     font-size: 1.125rem;
   }
 
+  .page {
+    margin-bottom: 3.125rem;
+  }
+
   .page h1 {
     font-size: 1.5rem;
   }
@@ -399,6 +406,18 @@ body {
 @supports not (font-size: clamp( 1.125rem , 1.0993589744rem  +  0.1282051282vw , 1.25rem )) {
     .header__phone {
       font-size: calc(1.125rem + 0.125 * (100vw - 20rem) / 97.5);
+    }
+}
+
+@supports (margin-bottom: clamp( 3.125rem , -0.0801282051rem  +  16.0256410256vw , 18.75rem )) {
+    .page {
+      margin-bottom: clamp( 3.125rem , -0.0801282051rem  +  16.0256410256vw , 18.75rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 3.125rem , -0.0801282051rem  +  16.0256410256vw , 18.75rem )) {
+    .page {
+      margin-bottom: calc(3.125rem + 15.625 * (100vw - 20rem) / 97.5);
     }
 }
 
